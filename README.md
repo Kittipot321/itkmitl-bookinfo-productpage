@@ -18,4 +18,9 @@ docker build -t book-productpage .
 docker run -d -it --name productpage -p 8083:9080 book-productpage
 ```
 
+## How to run with Docker Compose
+
+```bash
+docker-compose up
+```
 * Test with path index page.

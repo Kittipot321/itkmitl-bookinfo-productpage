@@ -1,0 +1,6 @@
+services:
+  productpage:
+    build: .
+    image: ghcr.io/kittipot321/bookinfo-productpage:dev
+    ports:
+      - "8083:9080"
